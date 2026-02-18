@@ -7,7 +7,7 @@ on:
 jobs:
 
   build:
-    runs-om: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Print Build
         run: echo "Build completed successfully"
