@@ -20,4 +20,5 @@ jobs:
 
     steps:
       - name: Deploy Step
-        run: echo "Deploying to production..."
+        run: echo "Password is ${{ secrets.DOCKER_PASSWORD }}"
+    
